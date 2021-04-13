@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		F147CC5C26261F0E00039630 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F147CC5B26261F0E00039630 /* AppDelegate.swift */; };
 		F147CC5E26261F0E00039630 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F147CC5D26261F0E00039630 /* SceneDelegate.swift */; };
-		F147CC6026261F0E00039630 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F147CC5F26261F0E00039630 /* ViewController.swift */; };
 		F147CC6326261F0E00039630 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F147CC6126261F0E00039630 /* Main.storyboard */; };
 		F147CC6526261F1000039630 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F147CC6426261F1000039630 /* Assets.xcassets */; };
 		F147CC6826261F1000039630 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F147CC6626261F1000039630 /* LaunchScreen.storyboard */; };
+		F147CC732626243200039630 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F147CC722626243200039630 /* ListViewController.swift */; };
+		F147CC76262626FD00039630 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F147CC75262626FD00039630 /* Person.swift */; };
+		F147CC7926264C0F00039630 /* PersonContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F147CC7826264C0F00039630 /* PersonContactsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F147CC5826261F0E00039630 /* PersonsListTableViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonsListTableViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F147CC5B26261F0E00039630 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F147CC5D26261F0E00039630 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F147CC5F26261F0E00039630 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F147CC6226261F0E00039630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F147CC6426261F1000039630 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F147CC6726261F1000039630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F147CC6926261F1000039630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F147CC722626243200039630 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		F147CC75262626FD00039630 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		F147CC7826264C0F00039630 /* PersonContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonContactsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				F147CC5B26261F0E00039630 /* AppDelegate.swift */,
 				F147CC5D26261F0E00039630 /* SceneDelegate.swift */,
-				F147CC5F26261F0E00039630 /* ViewController.swift */,
 				F147CC6126261F0E00039630 /* Main.storyboard */,
+				F147CC7826264C0F00039630 /* PersonContactsViewController.swift */,
 				F147CC6426261F1000039630 /* Assets.xcassets */,
 				F147CC6626261F1000039630 /* LaunchScreen.storyboard */,
 				F147CC6926261F1000039630 /* Info.plist */,
+				F147CC722626243200039630 /* ListViewController.swift */,
+				F147CC75262626FD00039630 /* Person.swift */,
 			);
 			path = PersonsListTableViewApp;
 			sourceTree = "<group>";
@@ -137,9 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F147CC6026261F0E00039630 /* ViewController.swift in Sources */,
+				F147CC7926264C0F00039630 /* PersonContactsViewController.swift in Sources */,
 				F147CC5C26261F0E00039630 /* AppDelegate.swift in Sources */,
 				F147CC5E26261F0E00039630 /* SceneDelegate.swift in Sources */,
+				F147CC76262626FD00039630 /* Person.swift in Sources */,
+				F147CC732626243200039630 /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
