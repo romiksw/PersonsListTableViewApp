@@ -15,6 +15,7 @@
 		F147CC732626243200039630 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F147CC722626243200039630 /* ListViewController.swift */; };
 		F147CC76262626FD00039630 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F147CC75262626FD00039630 /* Person.swift */; };
 		F147CC7926264C0F00039630 /* PersonContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F147CC7826264C0F00039630 /* PersonContactsViewController.swift */; };
+		F147CC7C26278B9C00039630 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F147CC7B26278B9B00039630 /* StartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		F147CC722626243200039630 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		F147CC75262626FD00039630 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		F147CC7826264C0F00039630 /* PersonContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonContactsViewController.swift; sourceTree = "<group>"; };
+		F147CC7B26278B9B00039630 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				F147CC5B26261F0E00039630 /* AppDelegate.swift */,
 				F147CC5D26261F0E00039630 /* SceneDelegate.swift */,
 				F147CC6126261F0E00039630 /* Main.storyboard */,
+				F147CC7B26278B9B00039630 /* StartViewController.swift */,
 				F147CC7826264C0F00039630 /* PersonContactsViewController.swift */,
 				F147CC6426261F1000039630 /* Assets.xcassets */,
 				F147CC6626261F1000039630 /* LaunchScreen.storyboard */,
@@ -148,6 +151,7 @@
 				F147CC5E26261F0E00039630 /* SceneDelegate.swift in Sources */,
 				F147CC76262626FD00039630 /* Person.swift in Sources */,
 				F147CC732626243200039630 /* ListViewController.swift in Sources */,
+				F147CC7C26278B9C00039630 /* StartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

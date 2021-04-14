@@ -104,10 +104,10 @@
             </objects>
             <point key="canvasLocation" x="1097.1014492753625" y="3.3482142857142856"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Start View Controller-->
         <scene sceneID="fhX-U8-sXR">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="SlI-mB-72h" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="SlI-mB-72h" customClass="StartViewController" customModule="PersonsListTableViewApp" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="SpX-bP-3Rq">
                         <autoresizingMask key="autoresizingMask"/>

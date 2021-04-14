@@ -9,26 +9,22 @@ import UIKit
 
 class ListViewController: UITableViewController {
     
-    let dataManagerBase = DataManager()
-    var persons = [Person]()
-    
-    var randomNames = [String]()
-    var randomSurnames = [String]()
-    var randomPhones = [String]()
-    var randomMails = [String]()
+    var delegate: PersonViewControllerDelegate!
+    var persons: [Person]!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        randomNames = dataManagerBase.names.shuffled()
-        randomSurnames = dataManagerBase.surnames.shuffled()
-        randomPhones = dataManagerBase.phoneNumbers.shuffled()
-        randomMails = dataManagerBase.mailAdresses.shuffled()
+//        print(delegate)
         
-        randomPerson()
+//        persons = delegate.getPersons()
+        print(persons)
+        
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        //print(persons)
+        //delegate.getPersons()
         return persons.count
     }
 
@@ -47,16 +43,5 @@ class ListViewController: UITableViewController {
         guard let indexPath = tableView.indexPathForSelectedRow else { return }
         let person = persons[indexPath.row]
         personContactsVC.person = person
-    }
-    
-    func randomPerson() {
-        for personCount in 0..<randomNames.count {
-            let person = Person(name: randomNames[personCount],
-                                surname: randomSurnames[personCount],
-                                phoneNumber: randomPhones[personCount],
-                                mailAdress: randomMails[personCount])
-            
-            persons.append(person)
-        }
     }
 }
