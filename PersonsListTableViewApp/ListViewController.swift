@@ -9,22 +9,13 @@ import UIKit
 
 class ListViewController: UITableViewController {
     
-    var delegate: PersonViewControllerDelegate!
     var persons: [Person]!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-//        print(delegate)
-        
-//        persons = delegate.getPersons()
-        print(persons)
-        
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        //print(persons)
-        //delegate.getPersons()
         return persons.count
     }
 
